@@ -10,6 +10,24 @@ let min = 0;
 
 let timeID = null;
 
+startbtn.addEventListener('click', ()=>{
+    if(timeID !== null){
+        clearInterval(timeID)
+    }
+    timeID = setInterval(starttime, 10)
+});
+
+pausebtn.addEventListener('click', ()=>{
+    clearInterval(timeID);
+});
+
+
+resetbtn.addEventListener('click', ()=>{
+    clearInterval(timeID);
+    displayTime.innerHTML = '00 : 00 : 00';
+});
+
+
 function starttime(){
     msec++;
     if(msec == 100){
@@ -20,4 +38,11 @@ function starttime(){
             min++;
         }
     }
+
+let msecString = msec < 10 ? `0${msec}` : msec;
+let secString = sec < 10 ? `0${msec}` : msec;
+let minString = min < 10 ? `0${msec}` : msec;
+
+
+
 }
