@@ -21,10 +21,9 @@ pausebtn.addEventListener('click', ()=>{
     clearInterval(timeID);
 });
 
-
 resetbtn.addEventListener('click', ()=>{
     clearInterval(timeID);
-    displayTime.innerHTML = '00 : 00 : 00';
+    displayTime.innerHTML = `00 : 00 : 00`;
 });
 
 
@@ -40,9 +39,8 @@ function starttime(){
     }
 
 let msecString = msec < 10 ? `0${msec}` : msec;
-let secString = sec < 10 ? `0${msec}` : msec;
-let minString = min < 10 ? `0${msec}` : msec;
+let secString = sec < 10 ? `0${sec}` : sec;
+let minString = min < 10 ? `0${min}` : min;
 
-
-
+    displayTime.innerHTML = `${minString} : ${secString} : ${msecString}`;
 }
