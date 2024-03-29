@@ -24,6 +24,7 @@ pausebtn.addEventListener('click', ()=>{
 resetbtn.addEventListener('click', ()=>{
     clearInterval(timeID);
     displayTime.innerHTML = `00 : 00 : 00`;
+    msec = sec = min = 0;
 });
 
 
