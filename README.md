@@ -1,12 +1,22 @@
-# Stopwatch Web Application
+# Stopwatch ⏱️
 
-This repository contains a simple stopwatch web application built using HTML, CSS, and JavaScript. The stopwatch allows users to start, pause, and reset the timer with ease.
+A simple stopwatch application built using **HTML**, **CSS**, and **JavaScript**. This project provides essential stopwatch functionality with a clean, user-friendly interface.
 
-![Screenshot 2024-03-29 at 15-54-20 Stop Watch](https://github.com/awahabt/Stop-Watch/assets/133004396/8e6a21e5-7626-470f-8934-a545bc28eae4)
+## Screenshot 🚀
+
+![StopWatch](https://github.com/user-attachments/assets/b7971d61-b357-4f67-bb68-60e718ee8745)
 
 
-## Features
 
-- **Start Button:** Initiates the stopwatch timer.
-- **Pause Button:** Halts the stopwatch timer without resetting the time.
-- **Reset Button:** Stops the stopwatch timer and resets the time to zero.
+## Technologies Used 🛠️
+
+- **HTML5**: For the structure of the application.
+- **CSS3**: For styling the user interface.
+- **JavaScript**: For stopwatch logic and functionality.
+
+## Features ✨
+
+- **Start, Stop, and Reset** controls.
+- **Responsive Design**: Works smoothly on both desktop and mobile devices.
+- **Lightweight and Fast**: Minimal code for quick performance.
+
